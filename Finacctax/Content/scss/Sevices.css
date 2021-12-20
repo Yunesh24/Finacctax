@@ -1,0 +1,69 @@
+﻿.serviceBox {
+    background: #05507f;
+    text-align: center;
+    padding: 20px 0 40px;
+    position: relative;
+}
+
+    .serviceBox:hover {
+        background: #0fd3e7;
+    }
+
+    .serviceBox .service-icon {
+        width: 100px;
+        height: 100px;
+        line-height: 95px;
+        border-radius: 50%;
+        border: 3px solid #b3b3b3;
+        font-size: 50px;
+        color: #b3b3b3;
+        margin: 0 auto;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .serviceBox:hover .service-icon {
+        transform: rotateY(360deg);
+        color: #05507f;
+        border-color: #fff;
+        background: #fff;
+    }
+
+    .serviceBox .service-content h3 a {
+        font-size: 22px;
+        color: #fff;
+    }
+
+    .serviceBox .service-content p {
+        font-size: 14px;
+        padding: 0 20px;
+        margin: 15px 0 30px;
+        color: #fff;
+    }
+
+    .serviceBox:hover h3 a,
+    .serviceBox:hover p {
+        color: #000;
+    }
+
+    .serviceBox .btn {
+        background: #fff;
+        color: #05507f;
+        padding: 10px 35px;
+        transition: all 0.6s ease-in-out;
+        -webkit-transition: all 0.6s ease-in-out;
+        -moz-transition: all 0.6s ease-in-out;
+        -ms-transition: all 0.6s ease-in-out;
+        -o-transition: all 0.6s ease-in-out;
+    }
+
+    .serviceBox:hover .btn {
+        background: #333;
+        color: #fff;
+    }
+
+@media screen and (max-width: 990px) {
+    .serviceBox {
+        margin-bottom: 20px;
+        padding: 20px 0;
+    }
+}
